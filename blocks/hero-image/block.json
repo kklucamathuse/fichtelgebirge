@@ -1,0 +1,31 @@
+{
+	"name": "acf/hero-image",
+	"title": "Kopfbild",
+	"description": "Bild mit Text für den Einstieg",
+	"category": "media",
+	"icon": {
+		"background": "#093A3E",
+		"foreground": "#fff",
+		"src": "align-left"
+	},
+	"keywords": [
+		"hero",
+		"image"
+	],
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "template.php"
+	},
+	"supports": {
+		"align": false,
+		"mode": false
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"block-preview": "file:./preview.jpg"
+			}
+		}
+	}
+}

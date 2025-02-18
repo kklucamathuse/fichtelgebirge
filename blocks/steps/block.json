@@ -1,0 +1,31 @@
+{
+	"name": "acf/steps",
+	"title": "Steps",
+	"description": "Steps",
+	"category": "text",
+	"icon": {
+		"background": "#001011",
+		"foreground": "#fff",
+		"src": "media-document"
+	},
+	"keywords": [
+		"steps",
+		"schritte"
+	],
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "template.php"
+	},
+	"supports": {
+		"align": false,
+		"mode": false
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"block-preview": "file:./preview.jpg"
+			}
+		}
+	}
+}

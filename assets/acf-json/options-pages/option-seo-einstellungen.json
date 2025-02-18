@@ -1,0 +1,144 @@
+{
+    "key": "group_632dbd27ed70b",
+    "title": "Option: SEO Einstellungen",
+    "fields": [
+        {
+            "key": "field_632dbd27ef9b5",
+            "label": "Tilte",
+            "name": "seo_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_632dbd55b5bfe",
+            "label": "Description",
+            "name": "seo_dscr",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_632dbd5fb5bff",
+            "label": "Bild",
+            "name": "seo_img",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "quarter",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_667421afce5b2",
+            "label": "Seite auf \"noindex\" stellen",
+            "name": "seo_index",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Verhindert, dass Suchmaschinen die Seite indexieren. Wenn die Checkbox angehackt wird, wird die Seite von Suchmaschinen ausgeschlossen",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_66742743c02c5",
+            "label": "Seite auf \"nofollow\" stellen",
+            "name": "seo_follow",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Verhindert, dass Suchmaschinen Links auf der Seite folgen. Dies bedeutet, dass die Suchmaschinen keine der Links auf der Seite in ihrem Ranking verwenden werden.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ],
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "options-page"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1718888408
+}

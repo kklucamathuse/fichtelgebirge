@@ -1,0 +1,30 @@
+{
+	"name": "acf/download",
+	"title": "Download",
+	"description": "Download",
+	"category": "media",
+	"icon": {
+		"background": "#093A3E",
+		"foreground": "#fff",
+		"src": "open-folder"
+	},
+	"keywords": [
+		"download"
+	],
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "template.php"
+	},
+	"supports": {
+		"align": false,
+		"mode": false
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"block-preview": "file:./preview.jpg"
+			}
+		}
+	}
+}

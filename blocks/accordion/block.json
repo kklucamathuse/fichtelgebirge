@@ -1,0 +1,30 @@
+{
+	"name": "acf/accordion",
+	"title": "Akkordeon",
+	"description": "Akkordeon",
+	"category": "text",
+	"icon": {
+		"background": "#001011",
+		"foreground": "#fff",
+		"src": "menu-alt3"
+	},
+	"keywords": [
+		""
+	],
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "template.php"
+	},
+	"supports": {
+		"align": false,
+		"mode": false
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"block-preview": "file:./preview.jpg"
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"name": "acf/instagram-listing",
+	"title": "Instagram Auflistung",
+	"description": "Ruft Instagram Posts ab",
+	"category": "media",
+	"icon": {
+		"background": "#093A3E",
+		"foreground": "#fff",
+		"src": "instagram"
+	},
+	"keywords": [
+		"instagram",
+		"list"
+	],
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "template.php"
+	},
+	"supports": {
+		"align": false,
+		"mode": false
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"block-preview": "file:./preview.jpg"
+			}
+		}
+	}
+}

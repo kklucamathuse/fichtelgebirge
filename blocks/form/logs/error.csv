@@ -1,0 +1,14 @@
+Datum;Name;Telefon;Email;Nachricht
+31.08.2022 16:23:36;Max Mustermann;34567890ß;foo@bar.com;34567890;
+31.08.2022 16:23:46;Max Mustermann;34567890;foo@bar.com;34567890;
+31.08.2022 16:23:47;Max Mustermann;34567890;foo@bar.com;34567890;
+31.08.2022 16:23:48;Max Mustermann;34567890;foo@bar.com;34567890;
+31.08.2022 16:25:06;Max Mustermann;34567890;foo@bar.com;34567890;
+31.08.2022 16:25:31;Max Mustermann;34567890;foo@bar.com;34567890;
+31.08.2022 16:27:10;Max Mustermann;34567890;foo@bar.com;34567890;
+20.03.2024 09:58:17;test;test;test@test.de;asdasd;
+20.03.2024 09:59:52;test;test;test@test.de;asdasd;
+20.03.2024 10:00:11;test;test;test@test.de;asdasd;
+20.03.2024 10:00:26;test;test;test@test.de;asdasd;
+20.03.2024 10:00:53;test;test;test@test.de;asdasd;
+20.03.2024 10:01:34;test;test;test@test.de;asdasd;

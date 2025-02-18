@@ -1,0 +1,31 @@
+{
+	"name": "acf/text-media",
+	"title": "Text Media",
+	"description": "Text mit Bild oder Video",
+	"category": "text",
+	"icon": {
+		"background": "#001011",
+		"foreground": "#fff",
+		"src": "align-left"
+	},
+	"keywords": [
+		"text",
+		"media"
+	],
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "template.php"
+	},
+	"supports": {
+		"align": false,
+		"mode": false
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"block-preview": "file:./preview.jpg"
+			}
+		}
+	}
+}

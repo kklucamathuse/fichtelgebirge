@@ -1,0 +1,31 @@
+{
+	"name": "acf/form",
+	"title": "Formular",
+	"description": "Formular",
+	"category": "text",
+	"icon": {
+		"background": "#001011",
+		"foreground": "#fff",
+		"src": "media-document"
+	},
+	"keywords": [
+		"form",
+		"formular"
+	],
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "template.php"
+	},
+	"supports": {
+		"align": false,
+		"mode": false
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"block-preview": "file:./preview.jpg"
+			}
+		}
+	}
+}

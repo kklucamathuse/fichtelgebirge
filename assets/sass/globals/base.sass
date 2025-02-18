@@ -1,0 +1,43 @@
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+html
+    overflow-x: hidden
+    overflow-y: scroll
+    
+    &:has( body.logged-in )
+        margin-top: 0 !important
+
+body 
+    -webkit-text-size-adjust: none
+    max-width: $max
+    margin: 0 auto
+    font-size: 1rem
+    line-height: 160%
+    font-weight: 400
+    font-family: $font-default
+    overflow-x: hidden
+
+img
+    display: block
+    max-width: 100%
+
+main
+    position: relative
+
+.wrapper,
+.wrapper-max,
+.wrapper-small
+    margin: 0 auto
+    
+.wrapper
+    max-width: $boxed
+
+    &-max 
+        max-width: $max
+
+    &-small    
+        max-width: $small
+    

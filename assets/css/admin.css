@@ -1,0 +1,49 @@
+.block-editor-block-toolbar__slot .dashicons-edit:before {
+    content: "\f111";
+}
+
+.block-editor-block-toolbar__slot .dashicons-welcome-view-site:before {
+    content: "\f464";
+}
+
+.edit-post-layout__metaboxes #poststuff .postbox {
+    background: aliceblue;
+}
+
+.edit-post-layout__metaboxes #poststuff .postbox .inside > .acf-field-accordion .acf-accordion-title {
+    background: #fafafa;
+    padding-left: 40px;
+}
+
+.edit-post-layout__metaboxes #poststuff .postbox .inside > .acf-field-accordion .acf-accordion-content {
+    padding-left: 24px
+}
+
+.edit-post-layout__metaboxes #poststuff .postbox .inside .acf-field {
+    padding-left: 40px;
+    background: #fff;
+}
+
+#editor .postbox > .postbox-header .handle-actions .handle-order-higher, 
+#editor .postbox > .postbox-header .handle-actions .handle-order-lower,
+#editor .postbox > .postbox-header .handle-actions .acf-hndle-cog {
+    display: none;
+}
+
+.edit-post-header__settings .editor-post-preview, 
+.edit-site-header__actions .editor-post-preview {
+    display: inherit;
+}
+
+.edit-post-header__settings .block-editor-post-preview__dropdown {
+    display: none;
+}
+
+.php-error #adminmenuback, .php-error #adminmenuwrap {
+    margin-top: 0 !important;
+}
+
+.attachment-info .actions a,
+.attachment-info .actions span {
+    display: none;
+}

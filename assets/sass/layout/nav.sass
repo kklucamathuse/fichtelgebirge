@@ -1,0 +1,60 @@
+#header-main-nav-container
+    #header-main-nav
+        ul
+            &.menu
+                li
+                    @apply py-2
+                    display: flex
+                    flex-wrap: wrap
+                    align-items: center
+                    justify-content: space-between
+
+                    a
+                        text-decoration: none
+                    
+                    &.active
+                        > a, 
+                        > .nav-parent-toggle
+                            color: $secondary
+
+                    &.children
+                        &.open
+                            > .level-1,
+                            > .level-2
+                                grid-template-rows: 1fr
+                                
+                                > ul
+                                    visibility: visible
+
+                        .level-1,
+                        .level-2
+                            width: 100%
+                            transition: $transition
+                            display: grid
+                            grid-template-rows: 0fr
+                            overflow: hidden
+                            transition: grid-template-rows ease-out 300ms
+
+                            
+
+                            > ul
+                                margin-top: .75rem
+                                min-height: 0
+                                border-top: 1px solid $secondary
+                                visibility: hidden
+
+                    .sub-nav-toggler
+                        @apply w-6 h-6 xl:ml-4 xl:mt-2
+
+                        .sub-nav-toggler-icon
+                            @apply relative block w-full h-full transition duration-300
+
+                            &::before,
+                            &::after
+                                @apply content-[''] block absolute top-[10px] bg-primary w-[14px] h-[2px] xl:top-3
+
+                            &::before
+                                @apply left-0 rotate-45
+
+                            &::after
+                                @apply right-0 -rotate-45

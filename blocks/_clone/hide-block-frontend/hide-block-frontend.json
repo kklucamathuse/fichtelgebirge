@@ -1,0 +1,45 @@
+{
+    "key": "group_65fab8568533a",
+    "title": "Clone: Verstecke Block im Frontend",
+    "fields": [
+        {
+            "key": "field_65fab85755d87",
+            "label": "Verstecke Block im Frontend",
+            "name": "hide_block_frontend",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "hide_block_frontend",
+    "show_in_rest": 0,
+    "modified": 1710933615
+}

@@ -1,0 +1,33 @@
+.wp-block {
+    margin-top: 0;
+    margin-bottom: 48px;
+    max-width: 1280px
+}
+
+.wp-block-acf-container {
+    border: 1px dashed #8c8f94;
+    padding: 24px 24px 0;
+    margin-bottom: 48px;
+    background: #f6f6f6;
+}
+
+.wp-block-acf-container .wp-block {
+    margin-bottom: 24px;
+}
+
+.wp-block-acf-container .block-list-appender {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 24px;
+}
+
+.block-list-appender {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.acf-block-body .acf-block-preview .acf-fields > .acf-field.acf-accordion .acf-accordion-title, 
+.acf-block-body :not(.acf-block-preview .acf-fields) > .acf-field.acf-accordion .acf-accordion-title {
+    background: lightgoldenrodyellow;
+}

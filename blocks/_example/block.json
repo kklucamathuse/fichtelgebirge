@@ -1,0 +1,30 @@
+{
+	"name": "acf/mein-block",
+	"title": "Mein Block-Title",
+	"description": "Meine Block-Beschreibung",
+	"category": "text",
+	"icon": {
+		"background": "#00796B",
+		"foreground": "#fff",
+		"src": "heading"
+	},
+	"keywords": [
+		"keywords"
+	],
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "template.php"
+	},
+	"supports": {
+		"align": false,
+		"mode": false
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"block-preview": "file:./preview.jpg"
+			}
+		}
+	}
+}

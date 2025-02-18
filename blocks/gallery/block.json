@@ -1,0 +1,31 @@
+{
+	"name": "acf/gallery",
+	"title": "Galerie",
+	"description": "Galerie mit maximal 6 Bildern",
+	"category": "media",
+	"icon": {
+		"background": "#093A3E",
+		"foreground": "#fff",
+		"src": "format-gallery"
+	},
+	"keywords": [
+		"gallery",
+		"image"
+	],
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "template.php"
+	},
+	"supports": {
+		"align": false,
+		"mode": false
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"block-preview": "file:./preview.jpg"
+			}
+		}
+	}
+}
