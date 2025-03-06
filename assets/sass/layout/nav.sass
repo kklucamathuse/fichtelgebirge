@@ -1,6 +1,17 @@
+#header-top
+    a
+        span
+            font-size: 11px
+    span
+        font-size: 11px
+
 #header-main-nav-container
     #header-main-nav
         ul
+            @media (min-width: 768px)
+                display: flex
+                flex-direction: row
+                gap: 2.5rem
             &.menu
                 li
                     @apply py-2
@@ -11,9 +22,10 @@
 
                     a
                         text-decoration: none
-                    
+                        font-size: 13px
+
                     &.active
-                        > a, 
+                        > a,
                         > .nav-parent-toggle
                             color: $secondary
 
@@ -22,7 +34,7 @@
                             > .level-1,
                             > .level-2
                                 grid-template-rows: 1fr
-                                
+
                                 > ul
                                     visibility: visible
 
@@ -35,7 +47,7 @@
                             overflow: hidden
                             transition: grid-template-rows ease-out 300ms
 
-                            
+
 
                             > ul
                                 margin-top: .75rem

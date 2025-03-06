@@ -35,7 +35,8 @@
                 "id": ""
             },
             "placement": "left",
-            "endpoint": 0
+            "endpoint": 0,
+            "selected": 0
         },
         {
             "key": "field_65f94f00fa867",
@@ -54,7 +55,11 @@
             "choices": {
                 "text-cols": "Text in Spalten",
                 "text-media": "Text & Media",
-                "media-text": "Media & Text"
+                "media-text": "Media & Text",
+                "text-blob": "Text & Media mit Blob",
+                "blob-text": "Media mit Blob & Text",
+                "text-bg-media": "Text mit Hintergrund & Media",
+                "media-text-bg": "Media & Text mit Hintergrund"
             },
             "default_value": false,
             "return_format": "value",
@@ -87,6 +92,66 @@
             "prefix_name": 0
         },
         {
+            "key": "field_67c5c8e51e401",
+            "label": "Zeige Dekoelemente an",
+            "name": "show_decor",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_67c8cc8fa3a1c",
+            "label": "Hintergrundfarbe",
+            "name": "background",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_65f94f00fa867",
+                        "operator": "==",
+                        "value": "text-bg-media"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_65f94f00fa867",
+                        "operator": "==",
+                        "value": "media-text-bg"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "primary": "Dunkelblau"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
             "key": "field_65fc0566780b7",
             "label": "Überschrift",
             "name": "",
@@ -101,7 +166,8 @@
                 "id": ""
             },
             "placement": "left",
-            "endpoint": 0
+            "endpoint": 0,
+            "selected": 0
         },
         {
             "key": "field_62067f103e569",
@@ -152,7 +218,8 @@
                 "id": ""
             },
             "placement": "top",
-            "endpoint": 0
+            "endpoint": 0,
+            "selected": 0
         },
         {
             "key": "field_65f95040a4c56",
@@ -284,6 +351,20 @@
                         "operator": "==",
                         "value": "media-text"
                     }
+                ],
+                [
+                    {
+                        "field": "field_65f94f00fa867",
+                        "operator": "==",
+                        "value": "text-blob"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_65f94f00fa867",
+                        "operator": "==",
+                        "value": "blob-text"
+                    }
                 ]
             ],
             "wrapper": {
@@ -292,7 +373,8 @@
                 "id": ""
             },
             "placement": "top",
-            "endpoint": 0
+            "endpoint": 0,
+            "selected": 0
         },
         {
             "key": "field_65f94f9ea4c53",
@@ -325,7 +407,8 @@
                         "id": ""
                     },
                     "placement": "top",
-                    "endpoint": 0
+                    "endpoint": 0,
+                    "selected": 0
                 },
                 {
                     "key": "field_62067f3d3e56a",
@@ -354,7 +437,7 @@
                     "aria-label": "",
                     "type": "link",
                     "instructions": "",
-                    "required": 1,
+                    "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
@@ -378,7 +461,8 @@
                         "id": ""
                     },
                     "placement": "top",
-                    "endpoint": 0
+                    "endpoint": 0,
+                    "selected": 0
                 },
                 {
                     "key": "field_62067f5f3e56d",
@@ -445,7 +529,8 @@
                                 "id": ""
                             },
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_65f955111dd29",
@@ -492,7 +577,8 @@
                                 "id": ""
                             },
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_65f955391dd2a",
@@ -539,5 +625,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1711015487
+    "modified": 1741230582
 }

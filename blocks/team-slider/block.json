@@ -1,0 +1,29 @@
+{
+  "name": "acf/team-slider",
+  "title": "Slider für Team",
+  "description": "Slider für Team",
+  "category": "design",
+  "icon": {
+    "background": "#670229",
+    "foreground": "#fff",
+    "src": "minus"
+  },
+  "keywords": ["divider", "trenner"],
+  "acf": {
+    "mode": "edit",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "align": false,
+    "mode": false
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "block-preview": "file:./preview.png"
+      }
+    }
+  },
+  "script": "file:./script.js"
+}

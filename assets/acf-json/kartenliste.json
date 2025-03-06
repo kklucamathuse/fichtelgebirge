@@ -1,0 +1,89 @@
+{
+    "key": "group_67c5b3a3bf91f",
+    "title": "Kartenliste",
+    "fields": [
+        {
+            "key": "field_67c5b3a4fb89c",
+            "label": "Inhalt",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_67c5b3d5fb89d",
+            "label": "Icon",
+            "name": "icon",
+            "aria-label": "",
+            "type": "icon_picker",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "tabs": [
+                "dashicons",
+                "media_library",
+                "url"
+            ],
+            "return_format": "string",
+            "library": "all",
+            "default_value": {
+                "type": null,
+                "value": null
+            }
+        },
+        {
+            "key": "field_67c5b3e6fb89e",
+            "label": "Text",
+            "name": "text",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/card-list"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1741009915
+}

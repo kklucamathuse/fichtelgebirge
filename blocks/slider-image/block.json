@@ -1,0 +1,29 @@
+{
+  "name": "acf/slider-image",
+  "title": "Slider Bilder",
+  "description": "Slider mit Bildern",
+  "category": "media",
+  "icon": {
+    "background": "#670229",
+    "foreground": "#fff",
+    "src": "minus"
+  },
+  "keywords": ["divider", "trenner"],
+  "acf": {
+    "mode": "edit",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "align": false,
+    "mode": false
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "block-preview": "file:./preview.png"
+      }
+    }
+  },
+  "script": "file:./script.js"
+}
